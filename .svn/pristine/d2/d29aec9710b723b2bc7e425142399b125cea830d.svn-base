@@ -1,0 +1,736 @@
+{
+  "games": [
+    {
+      "name": "Forbidden Treasures",
+      "abbreviation": "ftv",
+      "icon_image": "ftv_icon.webp",
+      "video_url": "ftv_video.mp4",
+      "rendering_images": ["ftv_cabinet.png", "ftv_coinpusher.png"],
+      "images_caption": "Available on HYDRA® Aries Cabinet and Coin Pusher®",
+      "heading": "Discover the Treasure Chest guarded by an octopus along with the Second Chance Respin Bonus!"
+    },
+    {
+      "name": "Ancient Greece",
+      "icon_image": "agb_icon.webp"
+    },
+    {
+      "name": "Ancient Greece Booster",
+      "icon_image": "agv_icon.webp"
+    },
+    {
+      "name": "African Safari",
+      "icon_image": "asm_icon.webp"
+    },
+    {
+      "name": "Cash Cow Milking Vegas",
+      "icon_image": "cc2_icon.webp"
+    },
+    {
+      "name": "Costa Riches™ Mega Gold®",
+      "abbreviation": "crm",
+      "icon_image": "crm_icon.webp",
+      "video_url": "crm_video.mp4",
+      "rendering_images": ["crm_hydra.png", "crm_ora.png", "crm_phnx.png"],
+      "images_caption": "",
+      "heading": "",
+      "game_details": {
+        "Series": "Cash Storm™",
+        "Config": "1024 Ways",
+        "Game Style": "Class II",
+        "Class II Denoms": "$0.01",
+        "Denom Type": "Single Denom",
+        "Max Bet": "250",
+        "Payback": "93.25, 94.25, 93, 95.25, 96.25",
+        "Jackpot Type": "1 Wide Area Progressive – Mega Gold®, 2 Local Area Progressives",
+        "Overall Hit Frequency %": "29",
+        "Overal Feature Frequency": "1/65 Plays",
+        "Volatility": "High"
+      }
+    },
+    {
+      "name": "Car Wash",
+      "icon_image": "crw_icon.webp"
+    },
+    {
+      "name": "Mystical Magic",
+      "abbreviation": "myv",
+      "icon_image": "myv_icon.webp",
+      "video_url": "myv_video.mp4",
+      "rendering_images": ["myv_hydra.png", "myv_ora.png", "myv_phnx.png"],
+      "images_caption": "Available on all Aries cabinets including the new HYDRA®, ORA® and PHNX® cabinets.",
+      "heading": "Discover the Mystical Wheel Bonus and the Jackpot Wheel Bonus to win credits and a chance to win a Jackpot!"
+    },
+    {
+      "name": "Koi Legend",
+      "abbreviation": "klv",
+      "icon_image": "klv_icon.webp",
+      "video_url": "klv_video.mp4",
+      "rendering_images": ["klv_hydra.png", "klv_ora.png", "klv_phnx.png"],
+      "images_caption": "Available on all Aries cabinets including the new HYDRA®, ORA® and PHNX® cabinets.",
+      "heading": "Reveal the Legend with the Free Games Bonus with Increasing Multipliers!"
+    },
+    {
+      "name": "Squatch Unleashed",
+      "abbreviation": "sqv",
+      "icon_image": "sqv_icon.webp",
+      "video_url": "sqv_video.mp4",
+      "rendering_images": ["sqv_hydra.png", "sqv_ora.png", "sqv_phnx.png"],
+      "images_caption": "Available on all Aries cabinets including the new HYDRA®, ORA® and PHNX® cabinets.",
+      "heading": "Unleash the Free Games Bonus with Increasing Multipliers!"
+    },
+    {
+      "name": "Magic Beanstalk",
+      "abbreviation": "mbe",
+      "icon_image": "mbe_icon.webp",
+      "video_url": "mbe_video.mp4",
+      "rendering_images": ["mbe_hydra.png"],
+      "images_caption": "",
+      "heading": "Magic Beanstalk Bonus & Free Games Bonus with Growing Wilds!"
+    },
+    {
+      "name": "Party with Marty",
+      "abbreviation": "pme",
+      "icon_image": "pme_icon.webp",
+      "video_url": "pme_video.mp4",
+      "rendering_images": ["pme_hydra.png"],
+      "images_caption": "",
+      "heading": "Featuring Raise the Roof Bonus and Free Games Bonus with Growing Wilds!"
+    },
+    {
+      "name": "Rusty and Rufus",
+      "abbreviation": "rrv",
+      "icon_image": "rrv_icon.webp",
+      "video_url": "",
+      "rendering_images": ["rrv_hydra.png", "rrv_ora.png", "rrv_phnx.png"],
+      "images_caption": "Available on the Hydra®, Ora® and PHNX® cabinets.",
+      "heading": "Featuring Pick N Pop Bonus, Furrific Respin Bonus and Free Games Bonus!"
+    },
+    {
+      "name": "Rubies & Emeralds",
+      "icon_image": "rbv.webp"
+    },
+    {
+      "name": "Rose Garden",
+      "icon_image": "rgv.webp"
+    },
+    {
+      "name": "Roman Tribute",
+      "icon_image": "rt1.webp"
+    },
+    {
+      "name": "Secret of the Lost Treasure",
+      "abbreviation": "slt",
+      "icon_image": "slt_icon.webp",
+      "video_url": "",
+      "rendering_images": ["slt_hydra.png", "slt_ora.png", "slt_phnx.png"],
+      "images_caption": "Available on the Hydra®, Ora® and PHNX® cabinets.",
+      "heading": "Featuring Mystery Wild upgrades & Free Games Bonus with Wild Upgrades"
+    },
+    {
+      "name": "Saints and Sinners",
+      "icon_image": "sns.webp"
+    },
+    {
+      "name": "Egyptian Dynasty",
+      "abbreviation": "ed2",
+      "icon_image": "ed2_icon.webp",
+      "video_url": "",
+      "rendering_images": ["ed2_hydra.png", "ed2_ora.png", "ed2_phnx.png"],
+      "images_caption": "Available on the Hydra®, Ora® and PHNX® cabinets.",
+      "heading": "Featuring Mystery Wild upgrades & Free Games Bonus with Wild Upgrades"
+    },
+    {
+      "name": "Egyptian Goddess",
+      "icon_image": "egv_icon.webp"
+    },
+    {
+      "name": "Jin Yin Tang",
+      "abbreviation": "jyt",
+      "icon_image": "jyt_icon.webp",
+      "video_url": "",
+      "rendering_images": ["jyt_hydra.png", "jyt_ora.png", "jyt_phnx.png"],
+      "images_caption": "Available on the Hydra®, Ora® and PHNX® cabinets.",
+      "heading": "Featuring 2 Local Area Progressives, 2 fixed Jackpots, Treasure Chest Bonus and Free Games Bonus with Multiplier Reel Stacks!"
+    },
+    {
+      "name": "Reel Treasure",
+      "abbreviation": "rtr",
+      "icon_image": "rtr_icon.webp",
+      "video_url": "",
+      "rendering_images": ["rtr_hydra.png", "rtr_ora.png", "rtr_phnx.png"],
+      "images_caption": "Available on the Hydra®, Ora® and PHNX® cabinets.",
+      "heading": "Featuring 2 Local Area Progressives, 2 fixed Jackpots, Treasure Chest Bonus and Free Games Bonus with Multiplier Reel Stacks!"
+    },
+    {
+      "name": "Royalty",
+      "icon_image": "rtv.webp"
+    },
+    {
+      "name": "Little Bo Peep",
+      "abbreviation": "lbv",
+      "icon_image": "lbv_icon.webp",
+      "video_url": "lbv_video.mp4",
+      "rendering_images": ["lbv_hydra.png", "lbv_ora.png", "lbv_phnx.png"],
+      "images_caption": "",
+      "heading": "",
+      "game_details": {
+        "Series": "Standard Video",
+        "Config": "5 Reels, 40 Lines",
+        "Game Style": "Class II and WA-CIII",
+        "Class II Denoms": "$0.01, $0.02, $0.05",
+        "WA-CIII Denoms": "$0.01",
+        "Denom Type": "Single & Multi-Denom",
+        "Max Bet": "250, 500, 1000, 2000",
+        "Payback": "88, 90, 92, 93, 94, 95, 96, 97, 98",
+        "Jackpot Type": "Fixed Top Award",
+        "Overall Hit Frequency %": "37",
+        "Overal Feature Frequency": "126 Plays",
+        "Volatility": "Low"
+      }
+    },
+    {
+      "name": "Piggy Tales",
+      "abbreviation": "ptv",
+      "icon_image": "ptv_icon.webp",
+      "video_url": "ptv_video.mp4",
+      "rendering_images": ["ptv_hydra.png", "ptv_ora.png", "ptv_phnx.png"],
+      "images_caption": "",
+      "heading": "",
+      "game_details": {
+        "Series": "Standard Video",
+        "Config": "5 Reels, 40 Lines",
+        "Game Style": "Class II and WA-CIII",
+        "Class II Denoms": "$0.01, $0.02, $0.05",
+        "WA-CIII Denoms": "$0.01",
+        "Denom Type": "Single & Multi-Denom",
+        "Max Bet": "250, 500, 1000, 2000",
+        "Payback": "88, 90, 92, 93, 94, 95, 96, 97, 98",
+        "Jackpot Type": "Fixed Top Award",
+        "Overall Hit Frequency %": "37",
+        "Overal Feature Frequency": "126 Plays",
+        "Volatility": "Low"
+      }
+    },
+    {
+      "name": "Treasures Ahoy",
+      "abbreviation": "tav",
+      "icon_image": "tav_icon.webp",
+      "video_url": "tav_video.mp4",
+      "rendering_images": ["tav_hydra.png", "tav_ora.png", "tav_phnx.png"],
+      "images_caption": "",
+      "heading": "",
+      "game_details": {
+        "Series": "Standard Video",
+        "Config": "576 Ways Game",
+        "Game Style": "Class II and WA-CIII",
+        "Class II Denoms": "$0.01, $0.02, $0.05",
+        "WA-CIII Denoms": "$0.01",
+        "Denom Type": "Single & Multi-Denom",
+        "Max Bet": "250, 500, 1000, 2000",
+        "Payback": "88, 90, 92, 93, 94, 95, 96, 97, 98",
+        "Jackpot Type": "Fixed Top Award",
+        "Overall Hit Frequency %": "33",
+        "Overal Feature Frequency": "100 Plays",
+        "Volatility": "Medium"
+      }
+    },
+    {
+      "name": "Forging Fortunes",
+      "abbreviation": "ffv",
+      "icon_image": "ffv_icon.webp",
+      "video_url": "ffv_video.mp4",
+      "rendering_images": ["ffv_hydra.png", "ffv_ora.png", "ffv_phnx.png"],
+      "images_caption": "",
+      "heading": "",
+      "game_details": {
+        "Series": "Standard Video",
+        "Config": "50 Lines",
+        "Game Style": "Class II and WA-CIII",
+        "Class II Denoms": "$0.01, $0.02, $0.05",
+        "WA-CIII Denoms": "$0.01",
+        "Denom Type": "Single & Multi-Denom",
+        "Max Bet": "250, 300, 500, 1000, 2000",
+        "Payback": "88, 90, 92, 93, 94, 95, 96, 97, 98",
+        "Jackpot Type": "Fixed Top Award",
+        "Overall Hit Frequency %": "40",
+        "Overal Feature Frequency": "50 Plays",
+        "Volatility": "Medium"
+      }
+    },
+    {
+      "name": "Festival of Gems",
+      "icon_image": "fog_icon.webp"
+    },
+    {
+      "name": "Cool Winnings",
+      "abbreviation": "cwv",
+      "icon_image": "cwv_icon.webp",
+      "video_url": "cwv_video.mp4",
+      "rendering_images": ["cwv_hydra.png", "cwv_ora.png", "cwv_phnx.png"],
+      "images_caption": "",
+      "heading": "",
+      "game_details": {
+        "Series": "Standard Video",
+        "Config": "50 Lines",
+        "Game Style": "Class II and WA-CIII",
+        "Class II Denoms": "$0.01, $0.02, $0.05",
+        "WA-CIII Denoms": "$0.01",
+        "Denom Type": "Single & Multi-Denom",
+        "Max Bet": "250, 300, 500, 1000, 2000",
+        "Payback": "88, 90, 92, 93, 94, 95, 96, 97, 98",
+        "Jackpot Type": "Fixed Top Award",
+        "Overall Hit Frequency %": "40",
+        "Overal Feature Frequency": "50 Plays",
+        "Volatility": "Medium"
+      }
+    },
+    {
+      "name": "Diamond Sevens",
+      "icon_image": "d7v_icon.webp"
+    },
+    {
+      "name": "Daily Double",
+      "icon_image": "dld_icon.webp"
+    },
+    {
+      "name": "Diamond Oasis",
+      "abbreviation": "dow",
+      "icon_image": "dow_icon.webp",
+      "video_url": "dow_video.mp4",
+      "rendering_images": ["dow_hydra.png", "dow_ora.png", "dow_phnx.png"],
+      "images_caption": "",
+      "heading": "",
+      "game_details": {
+        "Series": "Standard Video",
+        "Config": "576 Ways Game",
+        "Game Style": "Class II and WA-CIII",
+        "Class II Denoms": "$0.01, $0.02, $0.05",
+        "WA-CIII Denoms": "$0.01",
+        "Denom Type": "Single & Multi-Denom",
+        "Max Bet": "250, 500, 1000, 2000",
+        "Payback": "88, 90, 92, 93, 94, 95, 96, 97, 98",
+        "Jackpot Type": "Fixed Top Award",
+        "Overall Hit Frequency %": "33",
+        "Overal Feature Frequency": "100 Plays",
+        "Volatility": "Medium"
+      }
+    },
+    {
+      "name": "Koala Koins",
+      "abbreviation": "kcv",
+      "icon_image": "kcv_icon.webp",
+      "video_url": "kcv_video.mp4",
+      "rendering_images": ["kcv_hydra.png", "kcv_ora.png", "kcv_phnx.png"],
+      "images_caption": "",
+      "heading": "",
+      "game_details": {
+        "Series": "Standard Video",
+        "Config": "5 Reels, 20 Lines",
+        "Game Style": "Class II and WA-CIII",
+        "Class II Denoms": "$0.01, $0.02, $0.05, $0.10, $0.25, $1.00",
+        "WA-CIII Denoms": "$0.01",
+        "Denom Type": "Single & Multi-Denom",
+        "Max Bet": "250, 500",
+        "Payback": "Class II - 88, 90, 92, 94.5 / WA-CIII - 91, 93, 95, 96.5",
+        "Jackpot Type": "Fixed Top Award",
+        "Overall Hit Frequency %": "43",
+        "Overal Feature Frequency": "1/48 Plays",
+        "Volatility": "Low"
+      }
+    },
+    {
+      "name": "Aztec Gold",
+      "icon_image": "azg_icon.webp"
+    },
+    {
+      "name": "Gods of Olympus",
+      "icon_image": "gov_icon.webp"
+    },
+    {
+      "name": "Beautiful Gardens",
+      "abbreviation": "bgv",
+      "icon_image": "bgv_icon.webp",
+      "video_url": "bgv_video.mp4",
+      "rendering_images": [],
+      "images_caption": "",
+      "heading": "Featuring Random Wild Bonus, Sticky Wild Free Game Bonus and 5 Local Area Progressives!"
+    },
+    {
+      "name": "Birds of Paradise",
+      "abbreviation": "bpv",
+      "icon_image": "bpv_icon.webp",
+      "video_url": "bpv_video.mp4",
+      "rendering_images": [],
+      "images_caption": "",
+      "heading": "Featuring Free Games Bonus with Super Stacks and Pick N Pop Bonus!"
+    },
+    {
+      "name": "Black & White Frenzy",
+      "icon_image": "bwf_icon.webp"
+    },
+    {
+      "name": "Blazing Emeralds",
+      "abbreviation": "bze",
+      "icon_image": "bze_icon.webp",
+      "video_url": "bze_video.mp4",
+      "rendering_images": [],
+      "images_caption": "",
+      "heading": "Featuring Free Games Bonus with Wild Stacks Feature!"
+    },
+    {
+      "name": "Buffalo Charge",
+      "abbreviation": "bcv",
+      "icon_image": "bcv_icon.webp",
+      "video_url": "",
+      "rendering_images": ["bcv_hydra.png", "bcv_ora.png", "bcv_phnx.png"],
+      "images_caption": "",
+      "heading": "Featuring Free Games with Wild Super Stacks!"
+    },
+    {
+      "name": "Buffalo Wild & Free",
+      "abbreviation": "bfv",
+      "icon_image": "bfv_icon.webp",
+      "video_url": "bfv_video.mp4",
+      "rendering_images": [],
+      "images_caption": "",
+      "heading": "Featuring Free Games Bonus with Super Stacks!"
+    },
+    {
+      "name": "Empire Legacy™ Mega Gold®",
+      "abbreviation": "emp",
+      "icon_image": "emp_icon.webp",
+      "video_url": "",
+      "rendering_images": ["emp_hydra.png", "emp_ora.png", "emp_phnx.png"],
+      "images_caption": "",
+      "heading": "",
+      "game_details": {
+        "Series": "Cash Storm™",
+        "Config": "1024 Ways",
+        "Game Style": "Class II",
+        "Class II Denoms": "$0.01",
+        "Denom Type": "Single Denom",
+        "Max Bet": "250",
+        "Payback": "93.25, 94.25, 93, 95.25, 96.25",
+        "Jackpot Type": "1 Wide Area Progressive – Mega Gold®, 2 Local Area Progressives",
+        "Overall Hit Frequency %": "26",
+        "Overal Feature Frequency": "1/65 Plays",
+        "Volatility": "High"
+      }
+    },
+    {
+      "name": "Fantastic Phoenix",
+      "abbreviation": "fpv",
+      "icon_image": "fpv_icon.webp",
+      "video_url": "fpv_video.mp4",
+      "rendering_images": [],
+      "images_caption": "",
+      "heading": "Featuring Random Wild Bonus, Sticky Wild Free Game Bonus and 5 Local Area Progressives!"
+    },
+    {
+      "name": "Goldie and the 3 Lox",
+      "abbreviation": "g3l",
+      "icon_image": "g3l_icon.webp",
+      "video_url": "g3l_video.mp4",
+      "rendering_images": [],
+      "images_caption": "",
+      "heading": "Featuring Credit Bonus, Pick N Pop Bonus, Free Games Bonus and Jackpot Award!"
+    },
+    {
+      "name": "Goldie and the 3 Lox Deluxe LAP",
+      "abbreviation": "g3d",
+      "icon_image": "g3d_icon.webp",
+      "video_url": "",
+      "rendering_images": ["g3d_mainscreen.jpg", "g3d_topscreen.jpg"],
+      "images_caption": "",
+      "heading": "Featuring 2 Local Area Progressives, Credit Bonus, Pick N Pop Bonus and Free Games!"
+    },
+    {
+      "name": "Goldie and the 3 Lox Deluxe WAP",
+      "icon_image": "g3w_icon.webp",
+      "abbreviation": "g3w",
+      "video_url": "g3w_video.mp4",
+      "rendering_images": [""],
+      "images_caption": "",
+      "heading": "Featuring 1 Wide Area Progressive, 1 Local Area Progressive, Credit Bonus, Pick N Pop Bonus and Free Games Bonus!"
+    },
+    {
+      "name": "Hearts on Fire",
+      "abbreviation": "hfv",
+      "icon_image": "hfv_icon.webp",
+      "video_url": "hfv_video.mp4",
+      "rendering_images": [""],
+      "images_caption": "",
+      "heading": "Featuring Free Games Bonus with Random Symbol Stacks!"
+    },
+    {
+      "name": "Hop To It",
+      "abbreviation": "htv",
+      "icon_image": "htv_icon.webp",
+      "video_url": "htv_video.mp4",
+      "rendering_images": [],
+      "images_caption": "",
+      "heading": "Featuring Free Games Bonus, Pick N Pop Bonus, Free Games Bonus and Jackpot Award!"
+    },
+    {
+      "name": "Hop To It Deluxe LAP",
+      "abbreviation": "htd",
+      "icon_image": "htd_icon.webp",
+      "video_url": "",
+      "rendering_images": ["htd_win.png", "htd_reel.png"],
+      "images_caption": "",
+      "heading": "Featuring 2 Local Area Progressives, Credit Bonus, Pick N Pop Bonus and Free Games!"
+    },
+    {
+      "name": "Hop To It Deluxe WAP",
+      "icon_image": "htw_icon.webp",
+      "abbreviation": "htw",
+      "video_url": "htw_video.mp4",
+      "rendering_images": [],
+      "images_caption": "",
+      "heading": "Featuring 1 Wide Area Progressive, 1 Local Area Progressive, Credit Bonus, Pick N Pop Bonus and Free Games Bonus!"
+    },
+    {
+      "name": "Ivory King™ Mega Gold®",
+      "abbreviation": "ikc",
+      "icon_image": "ikc_icon.webp",
+      "video_url": "",
+      "rendering_images": ["ikc_hydra.png", "ikc_ora.png", "ikc_phnx.png"],
+      "images_caption": "",
+      "heading": "",
+      "game_details": {
+        "Series": "Cash Storm™",
+        "Config": "1024 Ways",
+        "Game Style": "Class II",
+        "Class II Denoms": "$0.01",
+        "Denom Type": "Single Denom",
+        "Max Bet": "250",
+        "Payback": "93.25, 94.25, 93, 95.25, 96.25",
+        "Jackpot Type": "1 Wide Area Progressive – Mega Gold®, 2 Local Area Progressives",
+        "Overall Hit Frequency %": "29",
+        "Overal Feature Frequency": "1/65 Plays",
+        "Volatility": "High"
+      }
+    },
+    {
+      "name": "Island Fever",
+      "abbreviation": "ilf",
+      "icon_image": "ilf_icon.webp",
+      "video_url": "",
+      "rendering_images": ["ilf_hydra.png", "ilf_ora.png", "ilf_phnx.png"],
+      "images_caption": "Available on the Hydra®, Ora® and PHNX® cabinets.",
+      "heading": "Featuring a Wild Mystery Bonus and a Free Games Bonus"
+    },
+    {
+      "name": "Jackpot Chihuahua",
+      "abbreviation": "jcv",
+      "icon_image": "jcv_icon.webp",
+      "video_url": "",
+      "rendering_images": ["jcv_hydra.png", "jcv_ora.png", "jcv_phnx.png"],
+      "images_caption": "Available on all Aries cabinets including the new HYDRA®, ORA® and PHNX® cabinets.",
+      "heading": "Featuring Credit Bonus, Pick a Chihuahua Bonus and Free Games Bonus!"
+    },
+    {
+      "name": "Jackpot Chihuahua Deluxe LAP",
+      "abbreviation": "jcd_lap",
+      "icon_image": "jcd_lap_icon.webp",
+      "video_url": "",
+      "rendering_images": [
+        "jcd_lap_hydra.png",
+        "jcd_lap_ora.png",
+        "jcd_lap_phnx.png"
+      ],
+      "images_caption": "Available on all Aries cabinets including the new HYDRA®, ORA® and PHNX® cabinets.",
+      "heading": ""
+    },
+    {
+      "name": "Jackpot Chihuahua Deluxe WAP",
+      "icon_image": "jcd_wap_icon.webp",
+      "abbreviation": "jcd_wap",
+      "video_url": "jcd_wap_video.mp4",
+      "rendering_images": [],
+      "images_caption": "",
+      "heading": "Featuring 1 Wide Area Progressive, 1 Local Area Progressive, Credit Bonus, Pick N Pop Bonus and Free Games Bonus!"
+    },
+    {
+      "name": "Jackpot Keno",
+      "icon_image": "jko_icon.webp"
+    },
+    {
+      "name": "Just Ducky Deluxe",
+      "icon_image": "jdd_icon.webp"
+    },
+    {
+      "name": "Just Ducky Deluxe WAP",
+      "icon_image": "jdw_wap_icon.webp",
+      "abbreviation": "jdw_wap",
+      "video_url": "jdw_wap_video.mp4",
+      "rendering_images": [],
+      "images_caption": "Just Ducky® Deluxe is a registered trademark of AGS, LLC and used by Aries Technology, LLC under permission from AGS, LLC.",
+      "heading": ""
+    },
+    {
+      "name": "Golden Joy™ Mega Gold®",
+      "icon_image": "gym_icon.webp",
+      "abbreviation": "gym",
+      "video_url": "",
+      "rendering_images": ["gym_screen.jpg", "gym_hydra.png"],
+      "images_caption": "",
+      "heading": "",
+      "game_details": {
+        "Series": "Cash Storm™",
+        "Config": "50 Lines",
+        "Game Style": "Class II",
+        "Class II Denoms": "$0.01",
+        "Denom Type": "Single Denom",
+        "Max Bet": "2000",
+        "Payback": "88.25, 90.25, 92.25, 93.25, 94.25, 95.25, 96.25",
+        "Jackpot Type": "1 Wide Area Progressive – Mega Gold®, 2 Local Area Progressives",
+        "Overall Hit Frequency %": "28",
+        "Overal Feature Frequency": "1/65 Plays",
+        "Volatility": "High"
+      }
+    },
+    {
+      "name": "Jurassic Riches",
+      "icon_image": "jrv_icon.webp"
+    },
+    {
+      "name": "Just Ducking Riding the Wave",
+      "icon_image": "rwv.webp"
+    },
+    {
+      "name": "Magnificent Monarch",
+      "abbreviation": "mmv",
+      "icon_image": "mmv_icon.webp",
+      "video_url": "mmv_video.mp4",
+      "rendering_images": [],
+      "images_caption": "",
+      "heading": "Featuring Random Wild Bonus, Sticky Wild Free Game Bonus and 5 Local Area Progressives!"
+    },
+    {
+      "name": "Mystical Merlin",
+      "icon_image": "mym_icon.webp"
+    },
+    {
+      "name": "Nawlins",
+      "icon_image": "nwv.webp"
+    },
+    {
+      "name": "Ocean Jewels",
+      "icon_image": "oc1.webp"
+    },
+    {
+      "name": "Panda Wins Deluxe WAP",
+      "abbreviation": "pww",
+      "icon_image": "pww_wap_icon.webp",
+      "video_url": "pww_wap_video.mp4",
+      "rendering_images": [""],
+      "images_caption": "Panda Wins® Deluxe is a registered trademark of AGS, LLC and used by Aries Technology, LLC under permission from AGS, LLC.",
+      "heading": "Featuring 1 Wide Area Progressive, 1 Local Area Progressive, Credit Bonus, Pick N Pop Bonus and Free Games Bonus!"
+    },
+    {
+      "name": "Queen Midas",
+      "icon_image": "qmv_icon.webp",
+      "abbreviation": "qmv",
+      "video_url": "qmv_video.mp4",
+      "rendering_images": [],
+      "images_caption": "Queen Midas® Blockbuster is a registered trademark of AGS, LLC and used by Aries Technology, LLC under permission from AGS, LLC.",
+      "heading": "Featuring Free Games with Blockbuster Bonus® and Random Blockbuster Bonus"
+    },
+    {
+      "name": "Rhodes to Olympus™ Mega Gold®",
+      "abbreviation": "rto",
+      "icon_image": "rto_icon.webp",
+      "video_url": "",
+      "rendering_images": [""],
+      "images_caption": "",
+      "heading": "",
+      "game_details": {
+        "Series": "Cash Storm™",
+        "Config": "1024 Ways",
+        "Game Style": "Class II",
+        "Class II Denoms": "$0.01",
+        "Denom Type": "Single Denom",
+        "Max Bet": "250",
+        "Payback": "93.25, 94.25, 93, 95.25, 96.25",
+        "Jackpot Type": "1 Wide Area Progressive – Mega Gold®, 2 Local Area Progressives",
+        "Overall Hit Frequency %": "26",
+        "Overal Feature Frequency": "1/65 Plays",
+        "Volatility": "High"
+      }
+    },
+    {
+      "name": "Silent Warrior",
+      "abbreviation": "swv",
+      "icon_image": "swv_icon.webp",
+      "video_url": "swv_video.mp4",
+      "rendering_images": [],
+      "images_caption": "",
+      "heading": "Featuring Free Games with Blockbuster Bonus® and Random Blockbuster Bonus"
+    },
+    {
+      "name": "Seville",
+      "abbreviation": "sev",
+      "icon_image": "sev_icon.webp",
+      "video_url": "",
+      "rendering_images": ["sev_mainscreen.jpg", "sev_topscreen.jpg"],
+      "images_caption": "",
+      "heading": "Featuring Stacked Symbols and Free Games with Sticky Wilds!"
+    },
+    {
+      "name": "Shadow Stallion",
+      "abbreviation": "ssv",
+      "icon_image": "ssv_icon.webp",
+      "video_url": "",
+      "rendering_images": ["ssv_topscreen.jpg", "ssv_mainscreen.jpg"],
+      "images_caption": "",
+      "heading": "Featuring Stacked Symbols and Free Games with Sticky Wilds!"
+    },
+    {
+      "name": "Snow White",
+      "abbreviation": "snv",
+      "icon_image": "snv_icon.webp",
+      "video_url": "snv_video.mp4",
+      "rendering_images": [],
+      "images_caption": "",
+      "heading": "Featuring Credit Bonus, Apple Bonus and Multi Free Games Bonuses including Wild Reels, Multipliers, Mystery Multiplier and Super Stack Wilds"
+    },
+    {
+      "name": "Sword of Fortune",
+      "icon_image": "sof.webp"
+    },
+    {
+      "name": "Treasures of Odin",
+      "abbreviation": "tov",
+      "icon_image": "tov_icon.webp",
+      "video_url": "tov_video.mp4",
+      "rendering_images": [],
+      "images_caption": "",
+      "heading": "Featuring Free Games with Blockbuster Bonus® and Random Blockbuster Bonus"
+    },
+    {
+      "name": "Triple Lucky Year",
+      "icon_image": "tly.webp"
+    },
+    {
+      "name": "White Fang",
+      "icon_image": "wfv.webp"
+    },
+    {
+      "name": "White Fang Booster",
+      "icon_image": "wfb.webp"
+    },
+    {
+      "name": "Wild Money",
+      "icon_image": "wmv.webp"
+    },
+    {
+      "name": "Wild and Free",
+      "icon_image": "wnb.webp"
+    },
+    {
+      "name": "Win Pigs Fly",
+      "icon_image": "wpv.webp"
+    }
+  ]
+}

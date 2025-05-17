@@ -1,0 +1,67 @@
+import React from "react";
+import Section from "../../layouts/Section";
+
+const Features = ({ getImagePath }) => {
+  return (
+    <>
+      <img
+        src={getImagePath("ellipseImage")}
+        className="absolute left-0 top-1/2 z-0 2xl:top-96"
+      />
+      <Section id="features">
+        <div className="bg-transparent py-10 md:py-20">
+          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <div className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
+              <div className="mx-auto flex h-80 max-w-xs flex-col justify-end gap-y-4 rounded-3xl border-2 border-solid border-zinc-500 border-opacity-5 bg-dark-fill p-6 md:max-w-md">
+                <div className="relative">{/* image here */}</div>
+                <p className="text-base leading-7 text-grey-text">
+                  We seamlessly blend the nostalgia of your childhood with the
+                  future of technology, offering a{" "}
+                  <span className="text-xl font-extrabold text-green-primary">
+                    unique gaming experience
+                  </span>{" "}
+                  that resonates with players of all ages.
+                </p>
+              </div>
+              <div className="mx-auto flex h-80 max-w-xs flex-col justify-center gap-y-4 rounded-3xl border-2 border-solid border-zinc-500 border-opacity-5 bg-dark-fill p-6 md:max-w-md 2xl:items-center">
+                <div>{/* image here */}</div>
+                <div className="2xl:w-2/3">
+                  <p className="text-base leading-7 text-grey-text">
+                    Our coing pushers are available in over{" "}
+                    <span className="text-xl font-extrabold text-pink-500">
+                      XX CASINOS
+                    </span>{" "}
+                    and{" "}
+                    <span className="text-xl font-extrabold text-pink-500">
+                      XX STATES
+                    </span>{" "}
+                    !
+                  </p>
+                </div>
+              </div>
+              <div className="bo rder-2 mx-auto flex h-80 max-w-xs flex-col justify-end gap-4 rounded-3xl border-solid border-zinc-500 border-opacity-5 bg-dark-fill px-5 py-12 md:max-w-md 2xl:items-center">
+                <div className="relative">
+                  <img
+                    src={getImagePath("serviceImage")}
+                    className="absolute bottom-0 2xl:static"
+                  />
+                </div>
+                <div className="2xl:w-3/4">
+                  <p className="text-base leading-7 text-grey-text">
+                    Coin Pushers have been reported to make{" "}
+                    <span className="text-xl font-extrabold text-purple-primary">
+                      1.5-2x house average
+                    </span>{" "}
+                    even after 2 years on the floor.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Section>
+    </>
+  );
+};
+
+export default Features;

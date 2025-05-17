@@ -1,0 +1,37 @@
+import React from "react";
+import {
+  HeroSection,
+  Vision,
+  Features,
+  CTA,
+  Testimonials,
+  CompanyOverview,
+} from "./index";
+
+const HomePage = () => {
+  const images = {
+    coinPusherSpaceImage: "space_coin_pusher.png",
+    ariesEmbossedImage: "aries_embossed.png",
+    ellipseImage: "ellipse_darkblue.png",
+    pinkLightImage: "pink_light.png",
+    serviceImage: "service.png",
+    cpZoomInImage: "zoom_in_coin_pusher.png",
+    queen: "queen.jpg",
+  };
+
+  const getImagePath = (imageKey) =>
+    `${import.meta.env.VITE_IMAGE_PATH}/home_page/${images[imageKey]}`;
+
+  return (
+    <main id="home" className="max-w-1920">
+      <HeroSection getImagePath={getImagePath} />
+      <Vision />
+      <Features getImagePath={getImagePath} />
+      <CTA getImagePath={getImagePath} />
+      <CompanyOverview />
+      <Testimonials getImagePath={getImagePath} />
+    </main>
+  );
+};
+
+export default HomePage;

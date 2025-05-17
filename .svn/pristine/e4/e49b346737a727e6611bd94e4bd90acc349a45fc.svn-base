@@ -1,0 +1,117 @@
+import React from "react";
+
+/**
+ * @component Determines the layout of a specific game page depending on what content it contains.
+ * Content can range from just one image to a complete page of game details and videos. This component
+ * will determine layout accordingly.
+ * Note: Not all games on GamesPage will have its own page.
+ * @param {1} game an object that contains a game's properties, such as name, paths to media, game details, etc.
+ * @returns A detail page for an individual game.
+ */
+
+const GameDetailPage = ({ game }) => {
+  const folder = game.abbreviation;
+  // Return images in a div
+  const cabinetRenderings = game["rendering_images"].map((image, index) => {
+    const imageLocation = `${
+      import.meta.env.VITE_IMAGE_PATH
+    }/game_images/${folder}/${image}`;
+
+    return (
+      <div className="flex flex-col items-center" key={index}>
+        <img src={imageLocation} alt={image} className="object-contain" />
+      </div>
+    );
+  });
+
+  const videoLocation = `${
+    import.meta.env.VITE_IMAGE_PATH
+  }/game_images/${folder}/${game.video_url}`;
+
+  const createDetailsList = ({ game_details }) => {
+    const results = [];
+    for (const key in game_details) {
+      results.push(
+        <li key={key}>
+          <b>{key}:</b> {game_details[key]}
+        </li>,
+      );
+    }
+    return results;
+  };
+
+  const detailsList = createDetailsList(game);
+
+  // Determine div styling depending if game details or video_url exists
+  const videoDetailsDivStyle = () => {
+    const baseStyle =
+      "flex flex-col items-center w-full gap-10 md:gap-14 md:mb-8 xl:flex-row 2xl:px-16";
+    if (game.game_details && game.video_url !== "") {
+      return baseStyle + " 2xl:justify-between";
+    }
+    return baseStyle + " xl:justify-center";
+  };
+
+  // Determine section styling depending on number of images
+  const imagesSectionStyle = () => {
+    const baseStyle =
+      "flex flex-col items-center justify-center gap-10 w-2/3 lg:flex-row lg:gap-4";
+    if (game.rendering_images.length === 1) {
+      return baseStyle;
+    }
+    return baseStyle + " lg:w-full";
+  };
+
+  return (
+    <main className="m-auto w-5/6 sm:px-8 sm:py-10 lg:px-10">
+      <div className="flex flex-col items-center gap-10 bg-slate-600 px-8 py-6 shadow-2xl sm:rounded-3xl sm:px-12 sm:py-14 lg:py-20">
+        <article className="min-w-min text-center md:w-4/5">
+          <h1 className="px-6 text-center font-bakbak text-2xl font-bold text-white sm:text-4xl lg:text-5xl">
+            {game.name}
+          </h1>
+          <hr className="border-1 mt-4 h-px w-full bg-gray-400 md:my-6 lg:h-2 dark:bg-gray-700"></hr>
+          {game.heading && (
+            <p className="mt-8 text-base leading-6 text-white md:text-lg lg:text-xl xl:text-2xl">
+              {game.heading}
+            </p>
+          )}
+        </article>
+        {(game.game_details || game.video_url) && (
+          <div className={videoDetailsDivStyle()}>
+            {game.game_details && (
+              <article className="max-w-md rounded-xl border-4 border-solid border-slate-500/50 bg-slate-400 p-4 shadow-xl ring-2 ring-slate-500/80 ring-offset-4 ring-offset-slate-400">
+                <ul className="p-2 text-sm leading-6 sm:text-base sm:leading-8 md:p-6 lg:leading-9">
+                  {detailsList}
+                </ul>
+              </article>
+            )}
+            {game.video_url !== "" ? (
+              <article className="flex h-60 w-5/6 sm:h-80 lg:h-96 xl:w-3/5">
+                <iframe
+                  className="flex h-auto w-full"
+                  src={videoLocation}
+                  title="FTV Forbidden Treasures"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></iframe>
+              </article>
+            ) : null}
+          </div>
+        )}
+        <article className="flex max-w-4xl flex-col items-center">
+          {game.rendering_images.length !== 0 && (
+            <section className={imagesSectionStyle()}>
+              {cabinetRenderings}
+            </section>
+          )}
+          <p className="mt-6 px-4 text-base leading-6 text-white md:text-lg lg:text-xl">
+            {game.images_caption}
+          </p>
+        </article>
+      </div>
+    </main>
+  );
+};
+
+export default GameDetailPage;

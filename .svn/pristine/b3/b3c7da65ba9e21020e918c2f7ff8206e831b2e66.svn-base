@@ -1,0 +1,3 @@
+#Please note paths to images in dev mode will need to have public directory included.
+#Vite uses public path as root so that is unnecessary in production
+VITE_IMAGE_PATH=path_to_images

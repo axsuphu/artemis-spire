@@ -1,0 +1,51 @@
+// contexts/NavbarContext.js
+
+import React, { createContext, useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
+
+const NavbarContext = createContext();
+
+const NavbarProvider = ({ children }) => {
+	const [navigation, setNavigation] = useState([
+		{ name: 'Home', href: '/', current: true },
+		{ name: 'Games', href: '/games', current: false },
+		{ name: 'Xtreme Rewards', href: '/xtreme-rewards', current: false },
+		{ name: 'Contact', href: '/contact', current: false },
+		{ name: 'Careers', href: '/careers', current: false },
+		{ name: 'Cabinets', href: '/cabinets', current: false },
+	]);
+	const location = useLocation();
+
+	//If page is refreshed, check which page user is currently on so navbar can highlight
+	//the correct page
+	useEffect(() => {
+		const updatedNavigation = navigation.map((page) => ({
+			...page,
+			current: location.pathname === page.href,
+		}));
+
+		setNavigation(updatedNavigation);
+	}, []);
+
+	const handleNavPageClick = ({ target }) => {
+		const pageURL = target.href;
+		const parts = pageURL.split('#');
+		if (parts.length > 1) {
+			const route = parts[1];
+			const updatedNavigation = navigation.map((page) => ({
+				...page,
+				current: route === page.href,
+			}));
+
+			setNavigation(updatedNavigation);
+		}
+	};
+
+	return (
+		<NavbarContext.Provider value={{ navigation, handleNavPageClick }}>
+			{children}
+		</NavbarContext.Provider>
+	);
+};
+
+export { NavbarProvider, NavbarContext };

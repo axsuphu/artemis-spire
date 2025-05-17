@@ -1,0 +1,210 @@
+import React from "react";
+import xrWinEvent from "/images/xtreme_reward_images/XR-win-event-768x434.png";
+import xrLogo from "/images/xtreme_reward_images/Xtreme_Rewards_Logo_Final.png";
+import eventTouchdown from "/images/xtreme_reward_images/Event-Touchdown.png";
+import eventSummer from "/images/xtreme_reward_images/Event-Summer.png";
+import eventWinter from "/images/xtreme_reward_images/Event-BeatTheWinter.png";
+import announcements from "/images/xtreme_reward_images/Xtreme-Treasure-Hunt-announcement.png";
+import revealNWin from "/images/xtreme_reward_images/IntegratedWins_MainGame.png";
+import prizeAcceptance from "/images/xtreme_reward_images/You-won-ARIES-GOLD-letter-“G”-game-piece.png";
+
+const XtremeRewardsPage = () => {
+  return (
+    <div>
+      {/* Xtreme Rewards Intro */}
+      <div className="bg-white">
+        <div className="flex justify-center p-4 md:px-10 xl:p-10">
+          <div className="flex max-w-6xl flex-col items-center p-2 py-14 sm:p-8 md:gap-6 md:p-5 lg:px-14 lg:py-10 xl:flex-row xl:px-0">
+            <div className="flex flex-col items-center xl:w-1/2">
+              <h1 className="text-center font-bakbak text-2xl font-bold tracking-widest sm:text-3xl lg:text-4xl">
+                XTREME REWARDS
+              </h1>
+              <img
+                src={xrLogo}
+                height="auto"
+                className="w-1/3 md:w-1/4 xl:w-1/2"
+              />
+              <p className="mb-4 w-5/6 text-sm leading-6 text-black sm:text-base lg:mb-0 lg:w-2/3 xl:w-full">
+                Xtreme Rewards® is a patent-pending process that monitors
+                players’ session play and rewards them prizes in real time as
+                “winning events” which are not funded by the game’s payout or
+                win percentage
+              </p>
+            </div>
+            <div>
+              <img
+                src={xrWinEvent}
+                width="650"
+                className="h-auto object-contain"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Xtreme Rewards Events */}
+      <div className="bg-zinc-100">
+        <div className="relative isolate px-6 md:px-10 lg:px-12">
+          <div className="mx-auto flex max-w-6xl gap-6 py-5 sm:py-8 lg:items-center lg:px-10 lg:py-10">
+            <div>
+              <h1 className="text-center font-bakbak text-2xl font-bold tracking-widest sm:text-3xl lg:text-4xl">
+                XTREME REWARDS EVENTS
+              </h1>
+              <br />
+              <p className="mt-2 text-sm leading-6 text-black md:mt-4 md:text-base md:leading-6 lg:mt-6 xl:leading-8">
+                Use Xtreme Rewards® to draw in new players, move play between
+                peak and non-peak periods, and increase revenue and
+                profitability. There is a wide range of events that your
+                property can create with Xtreme Rewards®. Popular event types
+                include Drawings, Instant Win / Hot Seat, Collect & Enter,
+                Collect & Win, Challenges and Trending Events.
+              </p>
+              <ul className="mt-6 list-disc pl-10 text-sm leading-6 text-black md:text-base md:leading-6 xl:leading-8">
+                <li>
+                  Choose from Aries’ portfolio of ready-to-execute Xtreme
+                  Rewards concepts. Some concepts include:
+                  <br />
+                  <div className="max-w-l sm:max-w-l mx-6 my-4 flex flex-col items-center gap-6 md:max-w-3xl md:flex-row lg:max-w-4xl xl:max-w-5xl">
+                    <img
+                      src={eventTouchdown}
+                      className="h-auto w-3/4 object-contain sm:w-2/3 md:w-1/4"
+                    />
+                    <img
+                      src={eventSummer}
+                      className="h-auto w-3/4 object-contain sm:w-2/3 md:w-1/4"
+                    />
+                    <img
+                      src={eventWinter}
+                      className="h-auto w-3/4 object-contain sm:w-2/3 md:w-1/4"
+                    />
+                  </div>
+                </li>
+                <li>
+                  Add your own twist to one of Aries’ ready-to-execute concepts
+                </li>
+                <li>
+                  Completely create your own! Aries will assist you in creating,
+                  configuring and setting up your event
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Xtreme Rewards Triggers */}
+      <div className="bg-zinc-100">
+        <div className="relative isolate px-6 md:px-10 lg:px-12">
+          <div className="mx-auto flex max-w-6xl items-center gap-6 py-5 sm:py-8 md:py-10 lg:px-10 lg:py-16">
+            <div>
+              <h1 className="text-center font-bakbak text-2xl font-bold tracking-widest sm:text-3xl lg:text-4xl">
+                XTREME REWARDS TRIGGERS
+              </h1>
+              <ul className="mt-6 list-disc pl-10 text-sm leading-6 text-black md:text-base md:leading-6 xl:leading-8">
+                <li>
+                  <b>Session Coin-In:</b> awards a prize to any player who, in
+                  their current session, has made game play purchases equal to
+                  or greater than a configurable threshold amount.
+                </li>
+                <li>
+                  <b>Session Loss:</b> awards a prize to any player who, in
+                  their current session, has had a net decrease in their balance
+                  of equal to or greater than a configurable threshold amount
+                  solely from game play purchases.
+                </li>
+                <li>
+                  <b>Session Number of Spins:</b> awards a prize to any player
+                  who, in their current session, has made a defined number of
+                  spins.
+                </li>
+                <li>
+                  <b>Session Single Win:</b> awards a prize to any player who
+                  wins a prize of an amount equal to or greater than a
+                  configurable threshold amount solely from in-game wins.
+                </li>
+                <li>
+                  <b>Session Win:</b> awards a prize to any player who, in their
+                  current session, has had a net increase in their balance equal
+                  to or greater than a configurable amount solely from in-game
+                  wins.
+                </li>
+                <li>
+                  <b>Session Theoretical Hold:</b> awards a prize to any player
+                  who, in their current session, has provided the casino with
+                  equal to or greater than a configurable threshold amount of
+                  revenue.
+                </li>
+                <li>
+                  <b>Session Number Of Plays Without Paytable Win:</b> Awards a
+                  prize after a specified number of game plays without any
+                  paytable win.
+                </li>
+                <li>
+                  <b>On Request:</b> allows an EGM or Redemption Center to
+                  request a prize from the server without having met any other
+                  criteria and is used to draw prizes from a Prize Deck which is
+                  a finite pool of prizes for a specific event.
+                </li>
+                <li>
+                  <b>Exact Single Win:</b> triggered when a single win on the
+                  Main Game matches the defined threshold, for example $0.99.
+                </li>
+                <li>
+                  <b>Number Tokens Dropped:</b> triggered when the number of
+                  tokens that fall off the Coin Pusher playfield equals the
+                  defined threshold, for example 500.
+                </li>
+                <li>
+                  <b>RFID Match:</b> triggered when a chip containing a matching
+                  RFID tag identifier falls of the Coin Pusher playfield.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Xtreme Rewards Features */}
+      <div className="bg-white">
+        <div className="relative isolate px-6 md:px-10 lg:px-12">
+          <div className="mx-auto flex max-w-6xl gap-6 py-5 sm:py-8 md:justify-center md:py-10 lg:px-10 lg:py-16">
+            <div>
+              <h1 className="text-center font-bakbak text-2xl font-bold tracking-widest sm:text-3xl lg:text-4xl">
+                XTREME REWARDS FEATURES
+              </h1>
+              <br />
+              <p className="mt-2 text-sm leading-6 text-black md:mt-4 md:text-base md:leading-6 lg:mt-6 xl:leading-8">
+                Enable one or all of these Xtreme Rewards® features during your
+                next event
+              </p>
+              <div>
+                <div className="max-w-l mx-6 my-4 flex flex-col items-center gap-6 text-2xl font-bold md:max-w-3xl md:flex-row md:gap-2 md:text-base lg:max-w-4xl lg:text-lg xl:max-w-7xl xl:gap-10">
+                  <div className="flex flex-col items-center gap-4">
+                    <img
+                      src={announcements}
+                      className="h-auto w-3/4 object-contain sm:w-2/3 md:w-4/5 xl:w-full"
+                    />
+                    <span>ANNOUNCEMENTS</span>
+                  </div>
+                  <div className="flex flex-col items-center gap-4">
+                    <img
+                      src={revealNWin}
+                      className="h-auto w-3/4 object-contain sm:w-2/3 md:w-4/5 lg:w-4/5 xl:w-full"
+                    />
+                    <span>REVEAL N WIN</span>
+                  </div>
+                  <div className="flex flex-col items-center gap-4">
+                    <img
+                      src={prizeAcceptance}
+                      className="h-auto w-3/4 object-contain sm:w-2/3 md:w-4/5 lg:w-4/5 xl:w-full"
+                    />
+                    <span>PRIZE ACCEPTANCE</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default XtremeRewardsPage;

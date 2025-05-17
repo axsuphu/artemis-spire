@@ -1,0 +1,31 @@
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+# Set up
+
+Copy .env.template to .env and .env.production. Then SVN add both to 'ignore list'.
+
+# Commands
+
+Use 'npm run dev' to run the solution on port: 8080
+Use 'npm run build' to create production build (output is 'dist' directory)
+
+# Documentation
+
+http://confluence.ariesnow.com/display/RandD/Website+Development
+
+********************************
+# Docker Build
+To build Docker container run either:
+(one step)
+docker-compose up --build -d
+    or
+(two step)
+docker build -f Dockerfile .
+docker-compose up -d

@@ -1,0 +1,38 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        bakbak: ['"Bakbak One"', "sans-serif"],
+        murecho: ['"Murecho"', "sans-serif"],
+      },
+      gridTemplateColumns: {
+        "70/30": "70% 28%",
+      },
+      colors: {
+        "space-black": "#0A0B14",
+        "aries-gold": "#c8ac44",
+        "grey-fill": "#252424",
+        "neon-yellow": "#EBE55F",
+        "light-neon-yellow": "#EBE78B",
+        "dark-fill": "#0F1018",
+        "green-primary": "#34A853",
+        "magenta-primary": "#870151",
+        "purple-primary": "#8649DA",
+        "red-primary": "#950B0B",
+      },
+      backgroundImage: {
+        "hero-image": "url('/public/images/home_page/background_stars.svg')",
+      },
+      maxWidth: {
+        1920: "1920px",
+      },
+      maxHeight: {
+        650: "650px",
+        950: "950px",
+      },
+    },
+  },
+  plugins: [],
+};

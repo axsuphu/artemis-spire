@@ -1,0 +1,15 @@
+import React from 'react';
+
+const Footer = () => {
+	return (
+		<>
+			<footer className='mt-auto bg-gray-800'>
+				<div className='py-12 text-sm text-center text-white lg:text-base'>
+					Copyright © 2024 Aries Technology, LLC
+				</div>
+			</footer>
+		</>
+	);
+};
+
+export default Footer;

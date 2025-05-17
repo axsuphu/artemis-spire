@@ -1,0 +1,19 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+const NotFoundPage = () => {
+	return (
+		<section className='bg-white text-center flex flex-col justify-center items-center h-96'>
+			<h1 className='text-5xl font-bold mb-4 lg:text-6xl'>404 Not Found</h1>
+			<p className='text-lg mb-5 lg:text-xl'>This page does not exist</p>
+			<Link
+				to='/'
+				className='text-white bg-indigo-700 hover:bg-indigo-900 rounded-md px-3 py-2 mt-4'
+			>
+				Back Home
+			</Link>
+		</section>
+	);
+};
+
+export default NotFoundPage;

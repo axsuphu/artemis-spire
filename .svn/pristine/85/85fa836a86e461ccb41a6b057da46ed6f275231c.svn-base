@@ -1,0 +1,14 @@
+import React from "react";
+
+const Testimonials = ({ getImagePath }) => {
+  return (
+    <>
+      <section
+        id="testimonials"
+        className="relative flex justify-center bg-transparent p-8 2xl:py-12"
+      ></section>
+    </>
+  );
+};
+
+export default Testimonials;
