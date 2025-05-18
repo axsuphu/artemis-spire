@@ -31,7 +31,7 @@ const GamesPage = () => {
   }, []);
 
   return (
-    <main id="games" className="relative max-w-1920">
+    <main id="games" className="relative w-screen max-w-1920">
       <NeonTitle title="G A M E S" color="pink" />
       <Bestsellers list={gamesPagesList} />
     </main>

@@ -37,23 +37,20 @@ const CTA = ({ getImagePath }) => {
                 (888) 888-8888
               </h2>
 
-              <div className="mt-6 flex items-center justify-center gap-x-6 lg:justify-start">
+              <div className="mt-6 flex items-center justify-center gap-x-6 text-sm font-semibold lg:justify-start 2xl:mt-16 2xl:text-base">
                 <a
                   href="#"
-                  className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                  className="rounded-md bg-white px-3.5 py-2.5 text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
                   Email
                 </a>
-                <a
-                  href="#"
-                  className="text-sm font-semibold leading-6 text-white"
-                >
+                <a href="#" className="leading-6 text-white">
                   Learn more <span aria-hidden="true">→</span>
                 </a>
               </div>
             </div>
             <div className="z-2 flex h-80 items-center justify-center md:h-96">
-              <img src={imageLocation} className="w-2/5" />
+              <img src={imageLocation} className="w-2/5 2xl:w-4/5" />
             </div>
           </div>
         </div>

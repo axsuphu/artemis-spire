@@ -21,7 +21,7 @@ const HomePage = () => {
     `${import.meta.env.VITE_IMAGE_PATH}/home_page/${images[imageKey]}`;
 
   return (
-    <main id="home" className="relative max-w-1920">
+    <main id="home" className="relative w-screen max-w-1920">
       <Hero getImagePath={getImagePath} />
       <Vision />
       <RevenueStats getImagePath={getImagePath} />

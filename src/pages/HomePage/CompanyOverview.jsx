@@ -21,7 +21,7 @@ const CompanyOverview = ({ getImagePath }) => {
             <h2 className="relative text-center font-bakbak text-2xl tracking-wide text-white md:text-4xl lg:max-w-lg lg:text-5xl xl:max-w-2xl xl:text-6xl">
               Fresh Ideas, Exciting Approach - Choose Us!
             </h2>
-            <div className="relative grid grid-cols-1 items-center justify-center lg:grid-cols-2">
+            <div className="relative grid grid-cols-1 items-center justify-center lg:grid-cols-2 2xl:mt-10">
               <div className="my-4 flex items-center justify-center">
                 <img src={getImagePath("teamwork")} className="w-1/2" />
               </div>
