@@ -18,15 +18,15 @@ const CompanyOverview = ({ getImagePath }) => {
             <circle cx={512} cy={512} r={512} fill="#7449B8" fillOpacity="1" />
           </svg>
           <div className="mx-auto flex flex-col items-center">
-            <h2 className="relative text-center font-bakbak text-3xl tracking-wide text-white md:text-4xl lg:max-w-lg lg:text-5xl xl:max-w-2xl xl:text-6xl">
+            <h2 className="relative text-center font-bakbak text-2xl tracking-wide text-white md:text-4xl lg:max-w-lg lg:text-5xl xl:max-w-2xl xl:text-6xl">
               Fresh Ideas, Exciting Approach - Choose Us!
             </h2>
-            <div className="relative mt-10 grid grid-cols-1 items-center justify-center lg:grid-cols-2">
-              <div className="flex items-center justify-center">
+            <div className="relative grid grid-cols-1 items-center justify-center lg:grid-cols-2">
+              <div className="my-4 flex items-center justify-center">
                 <img src={getImagePath("teamwork")} className="w-1/2" />
               </div>
 
-              <div className="m-2 rounded-sm bg-dark-fill p-2 text-base shadow-lg 2xl:rounded-lg 2xl:p-10 2xl:text-lg">
+              <div className="m-2 rounded-md bg-dark-fill p-4 text-sm shadow-lg 2xl:rounded-lg 2xl:p-10 2xl:text-lg">
                 <p className="text-grey-text">
                   Nam libero tempore, cum soluta nobis est eligendi optio cumque
                   nihil impedit quo minus id quod maxime placeat facere

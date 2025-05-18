@@ -97,7 +97,7 @@ const Testimonials = ({ getImagePath }) => {
                     <p>{entry.author.position}</p>
                     <p>{entry.author.company}</p>
                   </div>
-                  <p className="text-grey-text">{entry.text}</p>
+                  <p className="text-sm text-grey-text">{entry.text}</p>
                 </div>
               </div>
             ))}

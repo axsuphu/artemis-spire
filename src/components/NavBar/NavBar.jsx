@@ -45,8 +45,8 @@ export default function NavBar({ getImagePath }) {
                 </DisclosureButton>
               </div>
               <div className="flex flex-1 items-center justify-center sm:justify-start">
-                <div className="flex flex-shrink-0 items-center">
-                  <img src={imageLocation} className="w-3/4" />
+                <div className="flex items-center justify-center">
+                  <img src={imageLocation} className="w-1/3 lg:w-3/4" />
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">

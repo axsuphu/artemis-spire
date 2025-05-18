@@ -52,7 +52,7 @@ const FloatingAstronautRocks = () => {
 
   return (
     <div className="absolute 2xl:right-20 2xl:top-0">
-      <div className="relative">
+      <div className="relative left-9 top-28 w-2/5">
         <motion.img
           src={getImagePath("astronaut")}
           alt="Floating Astronaut Reaching"

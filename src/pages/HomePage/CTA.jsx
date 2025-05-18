@@ -31,15 +31,13 @@ const CTA = ({ getImagePath }) => {
               </defs>
             </svg>
             <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-20 lg:text-left">
-              <h2 className="font-bakbak text-2xl tracking-wide text-white sm:text-4xl xl:text-5xl">
+              <h2 className="font-bakbak text-xl text-white md:text-4xl xl:text-5xl">
                 Speak to an Artemis Spire Rep!
                 <br />
                 (888) 888-8888
               </h2>
-              <p className="mt-6 text-sm leading-8 text-grey-text">
-                Please call or email for more details.
-              </p>
-              <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
+
+              <div className="mt-6 flex items-center justify-center gap-x-6 lg:justify-start">
                 <a
                   href="#"
                   className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
@@ -55,7 +53,7 @@ const CTA = ({ getImagePath }) => {
               </div>
             </div>
             <div className="z-2 flex h-80 items-center justify-center md:h-96">
-              <img src={imageLocation} className="" />
+              <img src={imageLocation} className="w-2/5" />
             </div>
           </div>
         </div>
