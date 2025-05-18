@@ -8,14 +8,14 @@ const Bestsellers = ({ list }) => {
   const [bestsellersList, setBestsellersList] = useState([]);
   //An array of current best sellers
   const bestsellers = [
-    "Forbidden Treasures",
-    "Beautiful Gardens",
-    "Queen Midas",
-    "Mystical Magic",
-    "Koi Legend",
-    "Squatch Unleashed",
-    "Magic Beanstalk",
-    "Party with Marty",
+    "LaLa Land",
+    "Baby Driver",
+    "Severance",
+    "Eternaut",
+    "Orange is the New Black",
+    "Dog Tails",
+    "Bluey",
+    "Rick and Morty",
   ];
 
   useEffect(() => {

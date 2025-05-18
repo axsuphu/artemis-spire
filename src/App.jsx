@@ -9,7 +9,6 @@ const GamesPage = lazy(() => import("./pages/GamesPage/GamesPage"));
 const ContactPage = lazy(() => import("./pages/ContactPage"));
 const CareersPage = lazy(() => import("./pages/CareersPage"));
 const NotFoundPage = lazy(() => import("./pages/NotFoundPage"));
-const GameDetailPage = lazy(() => import("./pages/GameDetailPage"));
 const LoadingPage = lazy(() => import("./components/LoadingPage"));
 
 const App = () => {
@@ -23,7 +22,7 @@ const App = () => {
         <Route
           path={`/games/${game.abbreviation}`}
           key={`${game.abbreviation}`}
-          element={<GameDetailPage game={game} />}
+          element={<GamesPage />}
         />
       );
     } else {

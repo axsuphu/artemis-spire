@@ -2,7 +2,7 @@ import React from "react";
 import {
   Hero,
   Vision,
-  Features,
+  RevenueStats,
   CTA,
   Testimonials,
   CompanyOverview,
@@ -11,6 +11,10 @@ import {
 const HomePage = () => {
   const images = {
     ellipseImage: "ellipse_darkblue.png",
+    hourglass: "hourglass.png",
+    moneyBag: "money_bag.png",
+    coinGrowth: "coin_growth.png",
+    teamwork: "teamwork.png",
   };
 
   const getImagePath = (imageKey) =>
@@ -20,7 +24,7 @@ const HomePage = () => {
     <main id="home" className="relative max-w-1920">
       <Hero getImagePath={getImagePath} />
       <Vision />
-      <Features getImagePath={getImagePath} />
+      <RevenueStats getImagePath={getImagePath} />
       <CTA getImagePath={getImagePath} />
       <CompanyOverview getImagePath={getImagePath} />
       <Testimonials getImagePath={getImagePath} />

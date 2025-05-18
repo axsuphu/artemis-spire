@@ -1,6 +1,6 @@
 export { default as Hero } from "./Hero.jsx";
 export { default as Vision } from "./Vision.jsx";
-export { default as Features } from "./Features.jsx";
+export { default as RevenueStats } from "./RevenueStats.jsx";
 export { default as CTA } from "./CTA.jsx";
 export { default as Testimonials } from "./Testimonials.jsx";
 export { default as CompanyOverview } from "./CompanyOverview.jsx";

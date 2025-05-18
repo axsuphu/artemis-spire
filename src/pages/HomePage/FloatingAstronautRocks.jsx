@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
-const FloatingCoinPusher = () => {
+const FloatingAstronautRocks = () => {
   const [fastPosition, setFastPosition] = useState(0); // To track the position of the fast rock
   const [slowPosition, setSlowPosition] = useState(0); // Slow rock position
   const [slowestPosition, setSlowestPosition] = useState(0); // Slowest rock position
@@ -131,4 +131,4 @@ const FloatingCoinPusher = () => {
   );
 };
 
-export default FloatingCoinPusher;
+export default FloatingAstronautRocks;

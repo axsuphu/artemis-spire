@@ -2,6 +2,10 @@ import React from "react";
 import Section from "../../layouts/Section";
 
 const CompanyOverview = ({ getImagePath }) => {
+  // const imageLocation = `${
+  //   import.meta.env.VITE_IMAGE_PATH
+  // }/home_page/coin_machine.jpg`;
+
   return (
     <>
       <Section id="company_overview">
@@ -18,9 +22,10 @@ const CompanyOverview = ({ getImagePath }) => {
               Fresh Ideas, Exciting Approach - Choose Us!
             </h2>
             <div className="relative mt-10 grid grid-cols-1 items-center justify-center lg:grid-cols-2">
-              <div className="z-1 h-auto w-full lg:pr-10 2xl:pr-16">
-                {/* image here */}
+              <div className="flex items-center justify-center">
+                <img src={getImagePath("teamwork")} className="w-1/2" />
               </div>
+
               <div className="m-2 rounded-sm bg-dark-fill p-2 text-base shadow-lg 2xl:rounded-lg 2xl:p-10 2xl:text-lg">
                 <p className="text-grey-text">
                   Nam libero tempore, cum soluta nobis est eligendi optio cumque

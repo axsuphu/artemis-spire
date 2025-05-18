@@ -89,7 +89,7 @@ const Testimonials = ({ getImagePath }) => {
                   backgroundImage: `url(${getCardImagePath(entry.image)})`,
                 }}
               >
-                <div className="z-2 pointer-events-none relative flex min-h-[22rem] flex-col p-[2.4rem]">
+                <div className="pointer-events-none relative z-2 flex min-h-[22rem] flex-col p-[2.4rem]">
                   <div className="mb-2">
                     <h5 className="mb-1 font-bakbak text-2xl">
                       {entry.author.name}

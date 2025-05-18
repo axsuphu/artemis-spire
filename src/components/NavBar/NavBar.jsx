@@ -17,11 +17,14 @@ function classNames(...classes) {
  * @returns A responsive nav bar that is a hamburger nav below sm breakpoint and a horizantal nav bar
  * when above sm breakpoint
  */
-export default function NavBar() {
+export default function NavBar({ getImagePath }) {
   const { navigation, handleNavPageClick } = useContext(NavbarContext);
   if (navigation === undefined) {
     return null; // Handle case where navigation is not yet defined
   }
+  const imageLocation = `${
+    import.meta.env.VITE_IMAGE_PATH
+  }/artemisspire_icon.png`;
 
   return (
     <Disclosure as="header" className="bg-space-black">
@@ -43,7 +46,7 @@ export default function NavBar() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  {/* logo here */}
+                  <img src={imageLocation} className="w-3/4" />
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
