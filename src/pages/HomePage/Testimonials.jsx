@@ -71,8 +71,6 @@ const Testimonials = ({ getImagePath }) => {
     },
   ];
 
-  const getCardImagePath = (image) => `/public/images/home_page/${image}`;
-
   return (
     <>
       <Section id="testimonials">
@@ -84,12 +82,9 @@ const Testimonials = ({ getImagePath }) => {
             {testimonialData.map((entry) => (
               <div
                 key={entry.id}
-                className="relative block bg-[length:100%_100%] bg-no-repeat p-0.5 md:max-w-[24rem]"
-                style={{
-                  backgroundImage: `url(${getCardImagePath(entry.image)})`,
-                }}
+                className="flex h-64 w-64 items-center justify-center rounded-3xl bg-gradient-to-b from-green-500 to-pink-500 transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] sm:w-56 md:h-72 md:w-64 2xl:w-1/3"
               >
-                <div className="pointer-events-none relative z-2 flex min-h-[22rem] flex-col p-[2.4rem]">
+                <div className="h-[calc(100%-2px)] w-[calc(100%-2px)] rounded-[calc(1.5rem-1px)] bg-space-black p-7">
                   <div className="mb-2">
                     <h5 className="mb-1 font-bakbak text-2xl">
                       {entry.author.name}
