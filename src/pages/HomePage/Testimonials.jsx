@@ -82,9 +82,9 @@ const Testimonials = ({ getImagePath }) => {
             {testimonialData.map((entry) => (
               <div
                 key={entry.id}
-                className="flex h-64 w-64 items-center justify-center rounded-3xl bg-gradient-to-b from-green-500 to-pink-500 transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] sm:w-56 md:h-72 md:w-64 2xl:w-1/3"
+                className="flex h-auto w-fit items-center justify-center rounded-tr-3xl bg-gradient-to-b from-green-500 to-pink-500 transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] md:w-1/2 2xl:w-1/3"
               >
-                <div className="h-[calc(100%-2px)] w-[calc(100%-2px)] rounded-[calc(1.5rem-1px)] bg-space-black p-7">
+                <div className="h-[calc(100%-2px)] w-[calc(100%-2px)] rounded-tr-[calc(1.5rem-1px)] bg-space-black p-7">
                   <div className="mb-2">
                     <h5 className="mb-1 font-bakbak text-2xl">
                       {entry.author.name}

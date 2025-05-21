@@ -1,46 +1,16 @@
 import React, { useState, useEffect } from "react";
-import game_data from "../../assets/data/games_list.json";
+import { fetchGames } from "../../api/games";
 import NeonTitle from "../../components/NeonTitle";
-import Bestsellers from "./Bestsellers";
-import AvailableNow from "./AvailableNow";
 
 const GamesPage = () => {
-  //About half of games will have their own page which can be routed to.
-  //Other games will just be a list of cards that do not have their own pages.
-  const [gamesPagesList, setGamesPagesList] = useState([]);
-  const [noPageGamesList, setNoPageGamesList] = useState([]);
-
-  const colors = {
-    BtoP: ["from-blue-800", "to-pink-700"],
-    GtoO: ["from-green-600", "to-orange-500"],
-    YtoP: ["from-yellow-200", "to-purple-400"],
-    OtoR: ["from-orange-300", "to-red-500"],
-  };
-
-  useEffect(() => {
-    const pageAvailableList = [];
-    const pageNotAvailableList = [];
-    game_data["games"].map((game, index) => {
-      //The game object will have an abbreviation property if a folder exists
-      const folder = game.abbreviation;
-      //If folder exists, add the game object to an array containing games that have their own pages.
-      //Otherwise add to pageNotAvailableList array
-      if (folder) {
-        pageAvailableList.push(game);
-        return;
-      } else {
-        pageNotAvailableList.push(game);
-        return;
-      }
-    });
-    setGamesPagesList(pageAvailableList);
-    setNoPageGamesList(pageNotAvailableList);
-  }, []);
+  //Each game has a card of its own. Front of card is title and picture. Back of card are details
+  const [games, setGames] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   return (
     <main id="games" className="relative w-screen max-w-1920">
       <NeonTitle title="G A M E S" color="pink" />
-      <Bestsellers list={gamesPagesList} />
     </main>
   );
 };
