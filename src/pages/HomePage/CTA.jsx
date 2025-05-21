@@ -10,7 +10,7 @@ const CTA = ({ getImagePath }) => {
     <>
       <Section id="cta">
         <div className="mx-auto max-w-5xl">
-          <div className="relative isolate flex flex-col overflow-hidden rounded-md bg-pink-500 px-6 pt-12 shadow-2xl sm:gap-4 sm:rounded-xl sm:p-0 sm:px-16 md:gap-16 md:py-20 lg:flex lg:flex-row lg:items-center lg:gap-0 lg:px-24">
+          <div className="relative isolate flex flex-col overflow-hidden rounded-md bg-pink-500 px-6 pt-12 shadow-2xl sm:gap-4 sm:rounded-xl sm:p-0 sm:px-16 md:gap-16 md:py-20 lg:flex lg:flex-row lg:items-center lg:justify-center lg:gap-0 lg:px-24 lg:py-0 2xl:py-10">
             <svg
               viewBox="0 0 1024 1024"
               className="absolute left-1/2 top-1/2 z-0 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:-translate-y-24"
@@ -30,7 +30,7 @@ const CTA = ({ getImagePath }) => {
                 </radialGradient>
               </defs>
             </svg>
-            <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-20 lg:text-left">
+            <div className="mx-auto max-w-md text-center lg:mx-0 lg:w-1/2 lg:text-left 2xl:w-fit">
               <h2 className="font-bakbak text-xl text-white md:text-4xl xl:text-5xl">
                 Speak to an Artemis Spire Rep!
                 <br />
@@ -50,7 +50,7 @@ const CTA = ({ getImagePath }) => {
               </div>
             </div>
             <div className="z-2 flex h-80 items-center justify-center md:h-96">
-              <img src={imageLocation} className="w-2/5 2xl:w-4/5" />
+              <img src={imageLocation} className="w-2/5 lg:w-3/5 2xl:w-4/5" />
             </div>
           </div>
         </div>

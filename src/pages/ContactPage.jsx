@@ -1,10 +1,11 @@
 import React from "react";
+import Section from "./../layouts/Section";
 
 const ContactPage = () => {
   return (
     <main id="contact" className="relative w-screen max-w-1920">
-      <div className="m-auto max-w-7xl sm:px-8 sm:py-10 lg:px-10">
-        <div className="justify-left bg-slate-600 px-8 py-6 shadow-2xl sm:rounded-3xl sm:px-10 lg:px-24 lg:pb-12 lg:pt-10">
+      <Section id="revenue-stats">
+        <div className="justify-left w-fit rounded-3xl bg-slate-600 px-8 py-6 shadow-2xl sm:px-10 lg:px-24 lg:pb-12 lg:pt-10">
           <h1 className="mb-6 text-center font-bakbak text-3xl font-bold tracking-widest text-white sm:text-3xl lg:mb-10 lg:text-4xl">
             CONTACT US
           </h1>
@@ -134,7 +135,7 @@ const ContactPage = () => {
             </p>
           </div>
         </div>
-      </div>
+      </Section>
     </main>
   );
 };
