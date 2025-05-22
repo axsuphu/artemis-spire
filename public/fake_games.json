@@ -1,0 +1,804 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Game 1",
+      "thumbnail": "https://placehold.co/300x200?text=Game+1",
+      "genre": "Adventure",
+      "platform": "Nintendo Switch",
+      "description": "High-octane racing through city streets."
+    },
+    {
+      "id": 2,
+      "title": "Game 2",
+      "thumbnail": "https://placehold.co/300x200?text=Game+2",
+      "genre": "Simulation",
+      "platform": "Xbox",
+      "description": "Fast-paced multiplayer action with stunning graphics."
+    },
+    {
+      "id": 3,
+      "title": "Game 3",
+      "thumbnail": "https://placehold.co/300x200?text=Game+3",
+      "genre": "Simulation",
+      "platform": "Nintendo Switch",
+      "description": "An immersive experience set in a dystopian future."
+    },
+    {
+      "id": 4,
+      "title": "Game 4",
+      "thumbnail": "https://placehold.co/300x200?text=Game+4",
+      "genre": "Sports",
+      "platform": "Mobile",
+      "description": "Realistic sports simulation with advanced mechanics."
+    },
+    {
+      "id": 5,
+      "title": "Game 5",
+      "thumbnail": "https://placehold.co/300x200?text=Game+5",
+      "genre": "Racing",
+      "platform": "Mobile",
+      "description": "Realistic sports simulation with advanced mechanics."
+    },
+    {
+      "id": 6,
+      "title": "Game 6",
+      "thumbnail": "https://placehold.co/300x200?text=Game+6",
+      "genre": "Racing",
+      "platform": "Nintendo Switch",
+      "description": "A relaxing casual game for all ages."
+    },
+    {
+      "id": 7,
+      "title": "Game 7",
+      "thumbnail": "https://placehold.co/300x200?text=Game+7",
+      "genre": "Strategy",
+      "platform": "PC",
+      "description": "Embark on a quest across a magical land."
+    },
+    {
+      "id": 8,
+      "title": "Game 8",
+      "thumbnail": "https://placehold.co/300x200?text=Game+8",
+      "genre": "Puzzle",
+      "platform": "Nintendo Switch",
+      "description": "High-octane racing through city streets."
+    },
+    {
+      "id": 9,
+      "title": "Game 9",
+      "thumbnail": "https://placehold.co/300x200?text=Game+9",
+      "genre": "Sports",
+      "platform": "PC",
+      "description": "An immersive experience set in a dystopian future."
+    },
+    {
+      "id": 10,
+      "title": "Game 10",
+      "thumbnail": "https://placehold.co/300x200?text=Game+10",
+      "genre": "Sports",
+      "platform": "Nintendo Switch",
+      "description": "Manage your own virtual world with precision."
+    },
+    {
+      "id": 11,
+      "title": "Game 11",
+      "thumbnail": "https://placehold.co/300x200?text=Game+11",
+      "genre": "Adventure",
+      "platform": "Xbox",
+      "description": "A relaxing casual game for all ages."
+    },
+    {
+      "id": 12,
+      "title": "Game 12",
+      "thumbnail": "https://placehold.co/300x200?text=Game+12",
+      "genre": "Racing",
+      "platform": "PC",
+      "description": "A relaxing casual game for all ages."
+    },
+    {
+      "id": 13,
+      "title": "Game 13",
+      "thumbnail": "https://placehold.co/300x200?text=Game+13",
+      "genre": "Strategy",
+      "platform": "Nintendo Switch",
+      "description": "An immersive experience set in a dystopian future."
+    },
+    {
+      "id": 14,
+      "title": "Game 14",
+      "thumbnail": "https://placehold.co/300x200?text=Game+14",
+      "genre": "Adventure",
+      "platform": "Nintendo Switch",
+      "description": "High-octane racing through city streets."
+    },
+    {
+      "id": 15,
+      "title": "Game 15",
+      "thumbnail": "https://placehold.co/300x200?text=Game+15",
+      "genre": "Shooter",
+      "platform": "PlayStation",
+      "description": "Solve puzzles to uncover ancient secrets."
+    },
+    {
+      "id": 16,
+      "title": "Game 16",
+      "thumbnail": "https://placehold.co/300x200?text=Game+16",
+      "genre": "Adventure",
+      "platform": "PlayStation",
+      "description": "Shoot your way through waves of enemies."
+    },
+    {
+      "id": 17,
+      "title": "Game 17",
+      "thumbnail": "https://placehold.co/300x200?text=Game+17",
+      "genre": "Simulation",
+      "platform": "PlayStation",
+      "description": "Command armies and build your empire."
+    },
+    {
+      "id": 18,
+      "title": "Game 18",
+      "thumbnail": "https://placehold.co/300x200?text=Game+18",
+      "genre": "Racing",
+      "platform": "PlayStation",
+      "description": "An immersive experience set in a dystopian future."
+    },
+    {
+      "id": 19,
+      "title": "Game 19",
+      "thumbnail": "https://placehold.co/300x200?text=Game+19",
+      "genre": "Simulation",
+      "platform": "Nintendo Switch",
+      "description": "An immersive experience set in a dystopian future."
+    },
+    {
+      "id": 20,
+      "title": "Game 20",
+      "thumbnail": "https://placehold.co/300x200?text=Game+20",
+      "genre": "RPG",
+      "platform": "Mobile",
+      "description": "Manage your own virtual world with precision."
+    },
+    {
+      "id": 21,
+      "title": "Game 21",
+      "thumbnail": "https://placehold.co/300x200?text=Game+21",
+      "genre": "Simulation",
+      "platform": "Mobile",
+      "description": "Shoot your way through waves of enemies."
+    },
+    {
+      "id": 22,
+      "title": "Game 22",
+      "thumbnail": "https://placehold.co/300x200?text=Game+22",
+      "genre": "Adventure",
+      "platform": "PC",
+      "description": "Manage your own virtual world with precision."
+    },
+    {
+      "id": 23,
+      "title": "Game 23",
+      "thumbnail": "https://placehold.co/300x200?text=Game+23",
+      "genre": "Simulation",
+      "platform": "Nintendo Switch",
+      "description": "High-octane racing through city streets."
+    },
+    {
+      "id": 24,
+      "title": "Game 24",
+      "thumbnail": "https://placehold.co/300x200?text=Game+24",
+      "genre": "RPG",
+      "platform": "Mobile",
+      "description": "Command armies and build your empire."
+    },
+    {
+      "id": 25,
+      "title": "Game 25",
+      "thumbnail": "https://placehold.co/300x200?text=Game+25",
+      "genre": "Racing",
+      "platform": "PlayStation",
+      "description": "Solve puzzles to uncover ancient secrets."
+    },
+    {
+      "id": 26,
+      "title": "Game 26",
+      "thumbnail": "https://placehold.co/300x200?text=Game+26",
+      "genre": "Sports",
+      "platform": "Xbox",
+      "description": "Realistic sports simulation with advanced mechanics."
+    },
+    {
+      "id": 27,
+      "title": "Game 27",
+      "thumbnail": "https://placehold.co/300x200?text=Game+27",
+      "genre": "Racing",
+      "platform": "Xbox",
+      "description": "A relaxing casual game for all ages."
+    },
+    {
+      "id": 28,
+      "title": "Game 28",
+      "thumbnail": "https://placehold.co/300x200?text=Game+28",
+      "genre": "Shooter",
+      "platform": "Mobile",
+      "description": "Realistic sports simulation with advanced mechanics."
+    },
+    {
+      "id": 29,
+      "title": "Game 29",
+      "thumbnail": "https://placehold.co/300x200?text=Game+29",
+      "genre": "Sports",
+      "platform": "PlayStation",
+      "description": "Realistic sports simulation with advanced mechanics."
+    },
+    {
+      "id": 30,
+      "title": "Game 30",
+      "thumbnail": "https://placehold.co/300x200?text=Game+30",
+      "genre": "Action",
+      "platform": "PC",
+      "description": "An immersive experience set in a dystopian future."
+    },
+    {
+      "id": 31,
+      "title": "Game 31",
+      "thumbnail": "https://placehold.co/300x200?text=Game+31",
+      "genre": "Racing",
+      "platform": "PC",
+      "description": "Manage your own virtual world with precision."
+    },
+    {
+      "id": 32,
+      "title": "Game 32",
+      "thumbnail": "https://placehold.co/300x200?text=Game+32",
+      "genre": "Action",
+      "platform": "Nintendo Switch",
+      "description": "Solve puzzles to uncover ancient secrets."
+    },
+    {
+      "id": 33,
+      "title": "Game 33",
+      "thumbnail": "https://placehold.co/300x200?text=Game+33",
+      "genre": "Sports",
+      "platform": "Xbox",
+      "description": "Realistic sports simulation with advanced mechanics."
+    },
+    {
+      "id": 34,
+      "title": "Game 34",
+      "thumbnail": "https://placehold.co/300x200?text=Game+34",
+      "genre": "Strategy",
+      "platform": "Nintendo Switch",
+      "description": "Fast-paced multiplayer action with stunning graphics."
+    },
+    {
+      "id": 35,
+      "title": "Game 35",
+      "thumbnail": "https://placehold.co/300x200?text=Game+35",
+      "genre": "Casual",
+      "platform": "Xbox",
+      "description": "A relaxing casual game for all ages."
+    },
+    {
+      "id": 36,
+      "title": "Game 36",
+      "thumbnail": "https://placehold.co/300x200?text=Game+36",
+      "genre": "Simulation",
+      "platform": "Nintendo Switch",
+      "description": "Embark on a quest across a magical land."
+    },
+    {
+      "id": 37,
+      "title": "Game 37",
+      "thumbnail": "https://placehold.co/300x200?text=Game+37",
+      "genre": "Shooter",
+      "platform": "Xbox",
+      "description": "High-octane racing through city streets."
+    },
+    {
+      "id": 38,
+      "title": "Game 38",
+      "thumbnail": "https://placehold.co/300x200?text=Game+38",
+      "genre": "Racing",
+      "platform": "Mobile",
+      "description": "A relaxing casual game for all ages."
+    },
+    {
+      "id": 39,
+      "title": "Game 39",
+      "thumbnail": "https://placehold.co/300x200?text=Game+39",
+      "genre": "Casual",
+      "platform": "Mobile",
+      "description": "Embark on a quest across a magical land."
+    },
+    {
+      "id": 40,
+      "title": "Game 40",
+      "thumbnail": "https://placehold.co/300x200?text=Game+40",
+      "genre": "Racing",
+      "platform": "Xbox",
+      "description": "High-octane racing through city streets."
+    },
+    {
+      "id": 41,
+      "title": "Game 41",
+      "thumbnail": "https://placehold.co/300x200?text=Game+41",
+      "genre": "Action",
+      "platform": "PC",
+      "description": "Realistic sports simulation with advanced mechanics."
+    },
+    {
+      "id": 42,
+      "title": "Game 42",
+      "thumbnail": "https://placehold.co/300x200?text=Game+42",
+      "genre": "Action",
+      "platform": "Nintendo Switch",
+      "description": "An immersive experience set in a dystopian future."
+    },
+    {
+      "id": 43,
+      "title": "Game 43",
+      "thumbnail": "https://placehold.co/300x200?text=Game+43",
+      "genre": "Action",
+      "platform": "Xbox",
+      "description": "Command armies and build your empire."
+    },
+    {
+      "id": 44,
+      "title": "Game 44",
+      "thumbnail": "https://placehold.co/300x200?text=Game+44",
+      "genre": "Puzzle",
+      "platform": "PC",
+      "description": "Fast-paced multiplayer action with stunning graphics."
+    },
+    {
+      "id": 45,
+      "title": "Game 45",
+      "thumbnail": "https://placehold.co/300x200?text=Game+45",
+      "genre": "Racing",
+      "platform": "PC",
+      "description": "Realistic sports simulation with advanced mechanics."
+    },
+    {
+      "id": 46,
+      "title": "Game 46",
+      "thumbnail": "https://placehold.co/300x200?text=Game+46",
+      "genre": "Puzzle",
+      "platform": "Nintendo Switch",
+      "description": "Shoot your way through waves of enemies."
+    },
+    {
+      "id": 47,
+      "title": "Game 47",
+      "thumbnail": "https://placehold.co/300x200?text=Game+47",
+      "genre": "Simulation",
+      "platform": "Xbox",
+      "description": "Manage your own virtual world with precision."
+    },
+    {
+      "id": 48,
+      "title": "Game 48",
+      "thumbnail": "https://placehold.co/300x200?text=Game+48",
+      "genre": "Strategy",
+      "platform": "Nintendo Switch",
+      "description": "High-octane racing through city streets."
+    },
+    {
+      "id": 49,
+      "title": "Game 49",
+      "thumbnail": "https://placehold.co/300x200?text=Game+49",
+      "genre": "Action",
+      "platform": "PC",
+      "description": "Realistic sports simulation with advanced mechanics."
+    },
+    {
+      "id": 50,
+      "title": "Game 50",
+      "thumbnail": "https://placehold.co/300x200?text=Game+50",
+      "genre": "Casual",
+      "platform": "PC",
+      "description": "An immersive experience set in a dystopian future."
+    },
+    {
+      "id": 51,
+      "title": "Game 51",
+      "thumbnail": "https://placehold.co/300x200?text=Game+51",
+      "genre": "Strategy",
+      "platform": "PC",
+      "description": "An immersive experience set in a dystopian future."
+    },
+    {
+      "id": 52,
+      "title": "Game 52",
+      "thumbnail": "https://placehold.co/300x200?text=Game+52",
+      "genre": "Sports",
+      "platform": "Xbox",
+      "description": "Solve puzzles to uncover ancient secrets."
+    },
+    {
+      "id": 53,
+      "title": "Game 53",
+      "thumbnail": "https://placehold.co/300x200?text=Game+53",
+      "genre": "Casual",
+      "platform": "PlayStation",
+      "description": "An immersive experience set in a dystopian future."
+    },
+    {
+      "id": 54,
+      "title": "Game 54",
+      "thumbnail": "https://placehold.co/300x200?text=Game+54",
+      "genre": "Simulation",
+      "platform": "PlayStation",
+      "description": "An immersive experience set in a dystopian future."
+    },
+    {
+      "id": 55,
+      "title": "Game 55",
+      "thumbnail": "https://placehold.co/300x200?text=Game+55",
+      "genre": "Adventure",
+      "platform": "Nintendo Switch",
+      "description": "Realistic sports simulation with advanced mechanics."
+    },
+    {
+      "id": 56,
+      "title": "Game 56",
+      "thumbnail": "https://placehold.co/300x200?text=Game+56",
+      "genre": "Racing",
+      "platform": "Nintendo Switch",
+      "description": "Embark on a quest across a magical land."
+    },
+    {
+      "id": 57,
+      "title": "Game 57",
+      "thumbnail": "https://placehold.co/300x200?text=Game+57",
+      "genre": "Action",
+      "platform": "PlayStation",
+      "description": "Shoot your way through waves of enemies."
+    },
+    {
+      "id": 58,
+      "title": "Game 58",
+      "thumbnail": "https://placehold.co/300x200?text=Game+58",
+      "genre": "RPG",
+      "platform": "Nintendo Switch",
+      "description": "Solve puzzles to uncover ancient secrets."
+    },
+    {
+      "id": 59,
+      "title": "Game 59",
+      "thumbnail": "https://placehold.co/300x200?text=Game+59",
+      "genre": "Puzzle",
+      "platform": "Xbox",
+      "description": "Embark on a quest across a magical land."
+    },
+    {
+      "id": 60,
+      "title": "Game 60",
+      "thumbnail": "https://placehold.co/300x200?text=Game+60",
+      "genre": "Sports",
+      "platform": "PC",
+      "description": "An immersive experience set in a dystopian future."
+    },
+    {
+      "id": 61,
+      "title": "Game 61",
+      "thumbnail": "https://placehold.co/300x200?text=Game+61",
+      "genre": "Action",
+      "platform": "PC",
+      "description": "Embark on a quest across a magical land."
+    },
+    {
+      "id": 62,
+      "title": "Game 62",
+      "thumbnail": "https://placehold.co/300x200?text=Game+62",
+      "genre": "Adventure",
+      "platform": "PC",
+      "description": "A relaxing casual game for all ages."
+    },
+    {
+      "id": 63,
+      "title": "Game 63",
+      "thumbnail": "https://placehold.co/300x200?text=Game+63",
+      "genre": "Strategy",
+      "platform": "Xbox",
+      "description": "Command armies and build your empire."
+    },
+    {
+      "id": 64,
+      "title": "Game 64",
+      "thumbnail": "https://placehold.co/300x200?text=Game+64",
+      "genre": "Shooter",
+      "platform": "Nintendo Switch",
+      "description": "High-octane racing through city streets."
+    },
+    {
+      "id": 65,
+      "title": "Game 65",
+      "thumbnail": "https://placehold.co/300x200?text=Game+65",
+      "genre": "Strategy",
+      "platform": "Mobile",
+      "description": "Realistic sports simulation with advanced mechanics."
+    },
+    {
+      "id": 66,
+      "title": "Game 66",
+      "thumbnail": "https://placehold.co/300x200?text=Game+66",
+      "genre": "Simulation",
+      "platform": "PlayStation",
+      "description": "A relaxing casual game for all ages."
+    },
+    {
+      "id": 67,
+      "title": "Game 67",
+      "thumbnail": "https://placehold.co/300x200?text=Game+67",
+      "genre": "Sports",
+      "platform": "Xbox",
+      "description": "Realistic sports simulation with advanced mechanics."
+    },
+    {
+      "id": 68,
+      "title": "Game 68",
+      "thumbnail": "https://placehold.co/300x200?text=Game+68",
+      "genre": "Puzzle",
+      "platform": "Nintendo Switch",
+      "description": "Shoot your way through waves of enemies."
+    },
+    {
+      "id": 69,
+      "title": "Game 69",
+      "thumbnail": "https://placehold.co/300x200?text=Game+69",
+      "genre": "Shooter",
+      "platform": "Xbox",
+      "description": "Manage your own virtual world with precision."
+    },
+    {
+      "id": 70,
+      "title": "Game 70",
+      "thumbnail": "https://placehold.co/300x200?text=Game+70",
+      "genre": "Shooter",
+      "platform": "PC",
+      "description": "High-octane racing through city streets."
+    },
+    {
+      "id": 71,
+      "title": "Game 71",
+      "thumbnail": "https://placehold.co/300x200?text=Game+71",
+      "genre": "Casual",
+      "platform": "PC",
+      "description": "Shoot your way through waves of enemies."
+    },
+    {
+      "id": 72,
+      "title": "Game 72",
+      "thumbnail": "https://placehold.co/300x200?text=Game+72",
+      "genre": "Action",
+      "platform": "Mobile",
+      "description": "Fast-paced multiplayer action with stunning graphics."
+    },
+    {
+      "id": 73,
+      "title": "Game 73",
+      "thumbnail": "https://placehold.co/300x200?text=Game+73",
+      "genre": "RPG",
+      "platform": "PC",
+      "description": "High-octane racing through city streets."
+    },
+    {
+      "id": 74,
+      "title": "Game 74",
+      "thumbnail": "https://placehold.co/300x200?text=Game+74",
+      "genre": "Strategy",
+      "platform": "PC",
+      "description": "Solve puzzles to uncover ancient secrets."
+    },
+    {
+      "id": 75,
+      "title": "Game 75",
+      "thumbnail": "https://placehold.co/300x200?text=Game+75",
+      "genre": "Simulation",
+      "platform": "Xbox",
+      "description": "A relaxing casual game for all ages."
+    },
+    {
+      "id": 76,
+      "title": "Game 76",
+      "thumbnail": "https://placehold.co/300x200?text=Game+76",
+      "genre": "Simulation",
+      "platform": "Xbox",
+      "description": "Fast-paced multiplayer action with stunning graphics."
+    },
+    {
+      "id": 77,
+      "title": "Game 77",
+      "thumbnail": "https://placehold.co/300x200?text=Game+77",
+      "genre": "Action",
+      "platform": "Xbox",
+      "description": "Manage your own virtual world with precision."
+    },
+    {
+      "id": 78,
+      "title": "Game 78",
+      "thumbnail": "https://placehold.co/300x200?text=Game+78",
+      "genre": "Puzzle",
+      "platform": "Mobile",
+      "description": "A relaxing casual game for all ages."
+    },
+    {
+      "id": 79,
+      "title": "Game 79",
+      "thumbnail": "https://placehold.co/300x200?text=Game+79",
+      "genre": "Adventure",
+      "platform": "PlayStation",
+      "description": "A relaxing casual game for all ages."
+    },
+    {
+      "id": 80,
+      "title": "Game 80",
+      "thumbnail": "https://placehold.co/300x200?text=Game+80",
+      "genre": "Racing",
+      "platform": "Xbox",
+      "description": "Shoot your way through waves of enemies."
+    },
+    {
+      "id": 81,
+      "title": "Game 81",
+      "thumbnail": "https://placehold.co/300x200?text=Game+81",
+      "genre": "Shooter",
+      "platform": "Nintendo Switch",
+      "description": "Shoot your way through waves of enemies."
+    },
+    {
+      "id": 82,
+      "title": "Game 82",
+      "thumbnail": "https://placehold.co/300x200?text=Game+82",
+      "genre": "RPG",
+      "platform": "Nintendo Switch",
+      "description": "A relaxing casual game for all ages."
+    },
+    {
+      "id": 83,
+      "title": "Game 83",
+      "thumbnail": "https://placehold.co/300x200?text=Game+83",
+      "genre": "Adventure",
+      "platform": "Xbox",
+      "description": "Embark on a quest across a magical land."
+    },
+    {
+      "id": 84,
+      "title": "Game 84",
+      "thumbnail": "https://placehold.co/300x200?text=Game+84",
+      "genre": "RPG",
+      "platform": "Xbox",
+      "description": "An immersive experience set in a dystopian future."
+    },
+    {
+      "id": 85,
+      "title": "Game 85",
+      "thumbnail": "https://placehold.co/300x200?text=Game+85",
+      "genre": "Sports",
+      "platform": "Nintendo Switch",
+      "description": "Embark on a quest across a magical land."
+    },
+    {
+      "id": 86,
+      "title": "Game 86",
+      "thumbnail": "https://placehold.co/300x200?text=Game+86",
+      "genre": "RPG",
+      "platform": "Xbox",
+      "description": "Embark on a quest across a magical land."
+    },
+    {
+      "id": 87,
+      "title": "Game 87",
+      "thumbnail": "https://placehold.co/300x200?text=Game+87",
+      "genre": "Strategy",
+      "platform": "PlayStation",
+      "description": "Manage your own virtual world with precision."
+    },
+    {
+      "id": 88,
+      "title": "Game 88",
+      "thumbnail": "https://placehold.co/300x200?text=Game+88",
+      "genre": "Adventure",
+      "platform": "Xbox",
+      "description": "An immersive experience set in a dystopian future."
+    },
+    {
+      "id": 89,
+      "title": "Game 89",
+      "thumbnail": "https://placehold.co/300x200?text=Game+89",
+      "genre": "Shooter",
+      "platform": "PC",
+      "description": "High-octane racing through city streets."
+    },
+    {
+      "id": 90,
+      "title": "Game 90",
+      "thumbnail": "https://placehold.co/300x200?text=Game+90",
+      "genre": "Sports",
+      "platform": "PC",
+      "description": "An immersive experience set in a dystopian future."
+    },
+    {
+      "id": 91,
+      "title": "Game 91",
+      "thumbnail": "https://placehold.co/300x200?text=Game+91",
+      "genre": "Racing",
+      "platform": "Mobile",
+      "description": "An immersive experience set in a dystopian future."
+    },
+    {
+      "id": 92,
+      "title": "Game 92",
+      "thumbnail": "https://placehold.co/300x200?text=Game+92",
+      "genre": "Sports",
+      "platform": "PlayStation",
+      "description": "Embark on a quest across a magical land."
+    },
+    {
+      "id": 93,
+      "title": "Game 93",
+      "thumbnail": "https://placehold.co/300x200?text=Game+93",
+      "genre": "Sports",
+      "platform": "Mobile",
+      "description": "Realistic sports simulation with advanced mechanics."
+    },
+    {
+      "id": 94,
+      "title": "Game 94",
+      "thumbnail": "https://placehold.co/300x200?text=Game+94",
+      "genre": "Action",
+      "platform": "PC",
+      "description": "A relaxing casual game for all ages."
+    },
+    {
+      "id": 95,
+      "title": "Game 95",
+      "thumbnail": "https://placehold.co/300x200?text=Game+95",
+      "genre": "Simulation",
+      "platform": "Nintendo Switch",
+      "description": "Realistic sports simulation with advanced mechanics."
+    },
+    {
+      "id": 96,
+      "title": "Game 96",
+      "thumbnail": "https://placehold.co/300x200?text=Game+96",
+      "genre": "Shooter",
+      "platform": "PC",
+      "description": "A relaxing casual game for all ages."
+    },
+    {
+      "id": 97,
+      "title": "Game 97",
+      "thumbnail": "https://placehold.co/300x200?text=Game+97",
+      "genre": "Simulation",
+      "platform": "PC",
+      "description": "Realistic sports simulation with advanced mechanics."
+    },
+    {
+      "id": 98,
+      "title": "Game 98",
+      "thumbnail": "https://placehold.co/300x200?text=Game+98",
+      "genre": "RPG",
+      "platform": "PC",
+      "description": "High-octane racing through city streets."
+    },
+    {
+      "id": 99,
+      "title": "Game 99",
+      "thumbnail": "https://placehold.co/300x200?text=Game+99",
+      "genre": "Puzzle",
+      "platform": "PlayStation",
+      "description": "Command armies and build your empire."
+    },
+    {
+      "id": 100,
+      "title": "Game 100",
+      "thumbnail": "https://placehold.co/300x200?text=Game+100",
+      "genre": "Strategy",
+      "platform": "PC",
+      "description": "Solve puzzles to uncover ancient secrets."
+    }
+  ]
+}
